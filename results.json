@@ -11,7 +11,12 @@
     "french_3_gram_length": 8286,
     "spanish_3_gram_length": 8469
   },
-  "test_eval": "KeyError((' ', '\u00e0'))\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_2356/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_2356/2957777135.py\", line 26, in test_eval\n    'en_on_fr': round(eval(lm, 'fr', 3), 2),\n                      ^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2356/482350911.py\", line 25, in eval\n    entropy += np.log(model[prefix]['<unk>'])\n                      ~~~~~^^^^^^^^\nKeyError: (' ', '\u00e0')\n",
+  "test_eval": {
+    "en_on_en": 26.74,
+    "en_on_fr": 20.16,
+    "en_on_tl": 32.05,
+    "en_on_nl": 24.7
+  },
   "test_generate": {
     "english_2_gram": "I   a m e l l 1 G i g e   o m y o   &   h e ' t",
     "english_3_gram": "I   a m e b o m p i r s   a n s   a p p r e e  ",
