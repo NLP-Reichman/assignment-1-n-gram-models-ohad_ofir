@@ -11,7 +11,7 @@
     "french_3_gram_length": 8286,
     "spanish_3_gram_length": 8469
   },
-  "test_eval": "UnboundLocalError(\"cannot access local variable 'entropy' where it is not associated with a value\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_2356/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_2356/2957777135.py\", line 26, in test_eval\n    'en_on_fr': round(eval(lm, 'fr', 3), 2),\n                      ^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2356/1930024817.py\", line 25, in eval\n    entropy += np.log(model[prefix]['<unk>'])\n    ^^^^^^^\nUnboundLocalError: cannot access local variable 'entropy' where it is not associated with a value\n",
+  "test_eval": "KeyError((' ', '\u00e0'))\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_2356/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_2356/2957777135.py\", line 26, in test_eval\n    'en_on_fr': round(eval(lm, 'fr', 3), 2),\n                      ^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2356/482350911.py\", line 25, in eval\n    entropy += np.log(model[prefix]['<unk>'])\n                      ~~~~~^^^^^^^^\nKeyError: (' ', '\u00e0')\n",
   "test_generate": {
     "english_2_gram": "I   a m e l l 1 G i g e   o m y o   &   h e ' t",
     "english_3_gram": "I   a m e b o m p i r s   a n s   a p p r e e  ",
