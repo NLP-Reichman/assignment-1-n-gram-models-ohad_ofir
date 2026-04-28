@@ -1,0 +1,24 @@
+{
+  "test_link": {
+    "link": "https://colab.research.google.com/drive/1RXz6ePO9O9-XcU3yNCXnzF81XyDdcfmS?authuser=1#scrollTo=q2jNlDISr9aL"
+  },
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_build_lm": {
+    "english_2_gram_length": 747,
+    "english_3_gram_length": 8238,
+    "french_3_gram_length": 8285,
+    "spanish_3_gram_length": 8468
+  },
+  "test_eval": "UnboundLocalError(\"cannot access local variable 'entropy' where it is not associated with a value\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_2356/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_2356/2957777135.py\", line 26, in test_eval\n    'en_on_fr': round(eval(lm, 'fr', 3), 2),\n                      ^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2356/1930024817.py\", line 25, in eval\n    entropy += np.log(model[prefix]['<unk>'])\n    ^^^^^^^\nUnboundLocalError: cannot access local variable 'entropy' where it is not associated with a value\n",
+  "test_generate": {
+    "english_2_gram": "",
+    "english_3_gram": "",
+    "english_4_gram": "",
+    "spanish_2_gram": "",
+    "spanish_3_gram": "",
+    "french_2_gram": "",
+    "french_3_gram": ""
+  }
+}
