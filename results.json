@@ -13,17 +13,17 @@
   },
   "test_eval": {
     "en_on_en": 26.74,
-    "en_on_fr": 20.16,
-    "en_on_tl": 32.05,
-    "en_on_nl": 24.7
+    "en_on_fr": 88.86,
+    "en_on_tl": 75.62,
+    "en_on_nl": 64.7
   },
   "test_generate": {
-    "english_2_gram": "I   a m e l l 1 G i g e   o m y o   &   h e ' t",
-    "english_3_gram": "I   a m e b o m p i r s   a n s   a p p r e e  ",
-    "english_4_gram": "I   L o v e r .   Z o   A r e   f r o m i n g   # M",
-    "spanish_2_gram": "S o y   '   D u s o s   q u p s     e n   c e",
-    "spanish_3_gram": "S o y   e n s a n t a   o t o   e l   2 0 0  ",
-    "french_2_gram": "J e   s u i s   j e i t p u   s   a   m a l e   s : /",
-    "french_3_gram": "J e   s u i s t r e i l   H e r   l o n   i n   v s  "
+    "english_2_gram": "I amell1Gige omyo & he't",
+    "english_3_gram": "I amebompirs ans appree ",
+    "english_4_gram": "I Lover. Zo Are froming #M",
+    "spanish_2_gram": "Soy ' Dusos qups  en ce",
+    "spanish_3_gram": "Soy ensanta oto el 200 ",
+    "french_2_gram": "Je suis jeitpu s a male s:/",
+    "french_3_gram": "Je suistreil Her lon in vs "
   }
 }
